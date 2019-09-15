@@ -27,6 +27,7 @@ pipeline {
                 }
                 stage('Deployment') {
                 steps {
+                    echo "hiii"
                               //  cp target/gamutkart.war '/home/soumya/reddy/apache-tomcat-8.5.42/webapps/'
                 }
                 }
