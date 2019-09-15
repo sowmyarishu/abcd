@@ -29,6 +29,7 @@ pipeline {
 	    	steps {
 				//sh 'sshpass -p "soumya" scp target/gamutkart.war soumya@172.17.0.2:/home/soumya/reddy/apache-tomcat-8.5.42/webapps'
 				cp target/gamutkart.war /home/soumya/reddy/apache-tomcat-8.5.42/webapps/
+					}
 			}
 		}
     }
